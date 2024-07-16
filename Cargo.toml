@@ -1,0 +1,11 @@
+[package]
+name = "w1-temperature"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.8.0"
+clap = { version = "4.5.9", features = ["derive"] }
+clap-verbosity-flag = "2.2.0"
+env_logger = { version = "0.11.3" }
+log = "0.4.22"

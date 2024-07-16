@@ -1,5 +1,5 @@
 [package]
-name = "w1-temperature"
+name = "w1-temperature-api"
 version = "1.0.0"
 edition = "2021"
 

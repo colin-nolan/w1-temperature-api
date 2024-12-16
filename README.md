@@ -4,9 +4,17 @@ A Rust-based API server to provide temperature readings from a w1 device, such a
 
 ## Build
 
-Build using [Cargo](https://github.com/rust-lang/cargo):
+## Executables
+
+Using [Cargo](https://github.com/rust-lang/cargo):
 ```
 cargo build --release
+```
+
+## Docker
+
+```
+docker build -t colin-nolan/w1-temperature-api .
 ```
 
 ## Usage

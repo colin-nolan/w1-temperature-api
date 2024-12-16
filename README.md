@@ -2,6 +2,13 @@
 
 A Rust-based API server to provide temperature readings from a w1 device, such as a DS18B20 sensor.
 
+## Build
+
+Build using [Cargo](https://github.com/rust-lang/cargo):
+```
+cargo build --release
+```
+
 ## Usage
 
 ### Service

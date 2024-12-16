@@ -6,7 +6,7 @@ FROM rust:alpine3.21 AS build
 RUN apk add --no-cache musl-dev
 
 WORKDIR /app
-COPY Cargo.toml Cargo.lock .
+COPY Cargo.toml Cargo.lock ./
 COPY src src
 
 RUN cargo build --release
